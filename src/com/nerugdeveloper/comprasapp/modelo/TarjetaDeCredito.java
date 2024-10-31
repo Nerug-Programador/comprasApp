@@ -3,6 +3,7 @@ package com.nerugdeveloper.comprasapp.modelo;
 public class TarjetaDeCredito {
     private int saldo;
 
+
     public TarjetaDeCredito() {
             }
 
@@ -13,4 +14,5 @@ public class TarjetaDeCredito {
     public int getSaldo() {
         return saldo;
     }
+
 }
