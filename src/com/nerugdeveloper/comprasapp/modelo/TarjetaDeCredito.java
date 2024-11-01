@@ -1,18 +1,22 @@
 package com.nerugdeveloper.comprasapp.modelo;
 
+// Define la clase TarjetaDeCredito en el paquete com.nerugdeveloper.comprasapp.modelo
 public class TarjetaDeCredito {
-    private int saldo;
+    // Variable privada para almacenar el saldo de la tarjeta de crédito
+    private double saldo;
 
-
+    // Constructor vacío de la clase TarjetaDeCredito
     public TarjetaDeCredito() {
-            }
+        // El constructor está vacío y no hace nada en particular
+    }
 
-    public void setSaldo(int saldo) {
+    // Método setter para establecer el saldo de la tarjeta de crédito
+    public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
-    public int getSaldo() {
+    // Método getter para obtener el saldo de la tarjeta de crédito
+    public double getSaldo() {
         return saldo;
     }
-
 }
